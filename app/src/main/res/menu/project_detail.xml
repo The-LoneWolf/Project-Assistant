@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/delete_project"
+        android:icon="@drawable/ic_action_delete"
+        android:showAsAction="always"
+        app:showAsAction="always"
+        android:title="@string/delete_project" />
+    <item
+        android:id="@+id/edit_project"
+        android:icon="@drawable/ic_action_edit"
+        android:showAsAction="always"
+        app:showAsAction="always"
+        android:title="@string/edit_project" />
+
+    <item
+        android:id="@+id/add_task"
+        android:icon="@drawable/ic_action_add"
+        android:showAsAction="always"
+        app:showAsAction="always"
+        android:title="@string/add_task" />
+</menu>
